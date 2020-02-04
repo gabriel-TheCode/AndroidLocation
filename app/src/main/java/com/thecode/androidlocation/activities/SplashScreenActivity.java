@@ -22,7 +22,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     private Context mContext;
     ImageView img;
-    int SPLASH_TIME_OUT = 2000;
+    int SPLASH_TIME_OUT = 3000;
 
 
     @Override
