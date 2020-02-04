@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bottom_sheet_signature"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="230dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_dialog_indicator"/>
+
+        <LinearLayout
+            android:id="@+id/layout_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <EditText
+                android:id="@+id/edit_city"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="20dp"
+                android:text="Unknow location"
+                android:hint="Edit your adress"
+                android:textColor="@color/md_black_1000"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="12sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:drawablePadding="20dp"
+                android:background="@drawable/default_background_rounded_rect"
+                android:drawableEnd="@drawable/close_circle"
+                android:drawableStart="@drawable/ic_location_on_blue_24dp"/>
+
+            <Button
+                android:id="@+id/btn_validate_adress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="validate adress"
+                android:textColor="@color/white"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/btn_blue_selector"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

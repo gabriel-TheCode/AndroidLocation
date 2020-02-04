@@ -39,15 +39,23 @@ captures/
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/runConfigurations.xml
 .idea/gradle.xml
 .idea/assetWizardSettings.xml
 .idea/dictionaries
 .idea/libraries
+git add
 # Android Studio 3 in .gitignore file.
 .idea/caches
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/*
 .idea/modules.xml
 # Comment next line if keeping position of elements in Navigation Editor is relevant for you
 .idea/navEditor.xml
+.idea/misc.xml
+.idea/codeStyles/Project.xml
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
