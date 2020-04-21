@@ -115,6 +115,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
         mMap.setOnMapLoadedCallback(this);
         mMap.setOnMarkerClickListener(this);
+        mMap.setMyLocationEnabled(true);
     }
 
 
